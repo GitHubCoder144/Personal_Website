@@ -17,3 +17,41 @@ header, main, footer {
   max-width: 900px;
   padding: 20px;
 }
+
+/* Remove bullet points and make nav horizontal */
+nav ul {
+  list-style: none;      /* Removes bullets */
+  padding: 0;            /* Remove default padding */
+  margin: 0;             /* Remove default margin */
+  display: flex;         /* Display list items in a row */
+  gap: 20px;             /* Space between links */
+}
+
+/* Style the links */
+nav ul li a {
+  color: #39ff14;        /* Neon green */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+/* Add a hover effect to links */
+nav ul li a:hover {
+  color: #00ff00;        /* Brighter green on hover */
+  text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+}
+
+/* Style the main title */
+header h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  color: #39ff14;           /* Neon green */
+  text-align: center;
+  text-shadow:
+    0 0 5px #39ff14,
+    0 0 10px #39ff14,
+    0 0 20px #39ff14,
+    0 0 40px #0f0;
+  margin-bottom: 1rem;
+}
