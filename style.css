@@ -27,12 +27,12 @@ nav ul {
   gap: 20px;             /* Space between links */
 }
 
-/* Style the links */
-nav ul li a {
-  color: #39ff14;        /* Neon green */
-  text-decoration: none; /* Remove underline */
-  font-weight: bold;
-  font-size: 1.1rem;
-  transition: color 0.3s ease;
-}
 
+nav ul {
+  list-style: none;       /* Remove bullet points */
+  padding: 0;
+  margin: 0 auto;         /* Center the whole list horizontally */
+  display: flex;          /* Arrange list items in a row */
+  justify-content: center; /* Center the items within the nav */
+  gap: 20px;              /* Space between links */
+}
