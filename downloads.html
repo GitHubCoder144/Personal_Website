@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Downloads</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        /* Optional: quick button styling if not in style.css */
+        .download-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 40px;
+        }
+
+        .tool {
+            text-align: center;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .buttons a {
+            padding: 10px 20px;
+            background-color: #39ff14;  /* Neon green */
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .buttons a:hover {
+            background-color: #00ff00;
+            text-shadow: 0 0 5px #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Downloads</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="contribution.html">Contribute</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="download-section">
+
+            <!-- Kaaval Section -->
+            <div class="tool">
+                <h2>Kaaval</h2>
+                <div class="buttons">
+                    <a href="downloads/KaavalInstaller.exe" download>Windows</a>
+                    <a href="downloads/KaavalInstaller.dmg" download>macOS</a>
+                    <a href="downloads/KaavalInstaller" download>Linux</a>
+                </div>
+            </div>
+
+            <!-- Securox Section -->
+            <div class="tool">
+                <h2>Securox</h2>
+                <div class="buttons">
+                    <a href="downloads/SecuroxInstaller.exe" download>Windows</a>
+                    <a href="downloads/SecuroxInstaller.dmg" download>macOS</a>
+                    <a href="downloads/SecuroxInstaller" download>Linux</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 GitHubCoder</p>
+        <p>All Rights Reserved</p>
+    </footer>
+</body>
+</html>
