@@ -14,7 +14,7 @@ Use as a normal website, ig?
 
 I mean.... I would love to open position for a UX Designer/Frontend 
 
-Can't pay minimum tho, mb
+Can't even pay minimum tho, sry
 
 ## License
 
