@@ -15,32 +15,32 @@
       line-height: 1.6;
     }
 
-  .the-quote {
+  .the-quote-section {
+      height: 100vh;
       display: flex;
       justify-content: center;
-      align-items:center;
-      height: 100vh
-      background: #111
-      color: #fff
+      align-items: center;
+      background: #111;
+      color: #fff;
       text-align: center;
       padding: 2rem;
   }
 
   .quote-text {
-     font-size: 2.5rem
+     font-size: 2.5rem;
      font-weight: bold;
-     max-width: 900px
-     margin: 0 auto;
+     max-width: 900px;
    }
 
   .story-part {
       padding: 4rem 2rem;
-      background: #fff;
+      background: black;
    }
 
-  .story-section h2 {
+  .story-part h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    }
 
   .story-part p {
      max-width: 800px;
@@ -52,6 +52,8 @@
   .scroll-down {
       position: absolute;
       bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
       font-size: 2rem;
       color: #fff;
       animation: bounce 2s infinite;
@@ -67,16 +69,15 @@
 </head>
 <body>
 
- <section class="the-quote">
+ <section class="the-quote-section">
    <div>
-     <p class="quote-text">"Security, specifically Cybersecurity
-       works best with foundations in Open Source." </p>
+       <p> class="quote-text">"Security, specifically <strong> cybersecurity </strong> works <strong> best with foundations in <strong> open source </strong>."</p>
      <a href="#story" class="scroll-down">↓</a>
    </div>
  </section>
 
 <section class="story-part" id="story">
-<h2>Hi My Name Is Johan.....</h2>
+<h2>Hi My Name Is Johan...</h2>
 <p>
     As a student in high school, I believe that cybersecurity should do four major things apart from security itself:
     It should be transparent, accessible to anyone, help educate others, and founded upon the principles of open-source.
@@ -85,7 +86,7 @@
     To me, insights into and building for security turned me from a proponent that cybersecurity is just another hassle to
     deal with when managing systems to a proponent that realizes and advocates for the integration of security and protection
     in each step of our increasingly digital lives. This new mindset and bias to security guided me through my journey through
-    high school from early experimenting and securing linux systems through penetration testing with Kali Linux to building
+    high school from early experimenting and securing Linux systems through penetration testing with Kali Linux to building
     and developing small security tools such as Securox, a small lightweight Text User Interface used for system monitoring
     and Kaaval, a cross platform cybersecurity assistant which warns and quarantines suspicious files to protect systems
     from initial attacks and reinforcing users to check all files going through a system.
@@ -94,13 +95,13 @@
 <p>
     With new technologies and innovations emerging through the door every single day, It can often be difficult to focus on
     the key questions of security such as how this specific product interacts with networks while mesmerizing on the
-    abilities that such products can do. With this new mindset, I try to approach technology with open-mindness, understanding
+    abilities that such products can do. With this new mindset, I try to approach technology with open-mindedness, understanding
     that what we can do with technology can be world-changing while also being responsible with how we approach new tech.
     It is important that we just as equally emphasize innovation, collaboration and transparency with security as we do
     with new developments. My open-source projects try to embody this spirit through the transparency of the code with
     comments explaining why we write certain functions or what they do, the readme clearly showing others how to use the
     end product, and encourages others to contribute their own ideas to the project. In fact this idea is what open-source
-    is all about which is why encourage everyone to participate or make your own projects because a future idea can only
+    is all about which is why I encourage everyone to participate or make your own projects because a future idea can only
     be conceived and built if initiative is taken today.
 </p>
 </section>
